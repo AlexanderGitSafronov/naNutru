@@ -680,7 +680,9 @@
                     type="tel"
                     name="tel"
                     id="tel"
-                    placeholder="+7(___)___-__-__"
+                    data-tel-input
+                    maxlength="18"
+                    placeholder="+7(000)000-00-00"
                   />
                 </div>
 
@@ -716,6 +718,8 @@
               type="tel"
               name="tel"
               id="tel"
+              data-tel-input
+              maxlength="18"
               placeholder="+7(___)___-__-__"
             />
           </div>
@@ -734,5 +738,6 @@
         </form>
       </div>
     </div>
+    <script src="https://unpkg.com/imask"></script>
   </body>
 </html>

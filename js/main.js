@@ -72,3 +72,21 @@ swipeToForm.forEach((item) => {
     });
   });
 });
+
+
+
+
+
+
+const phoneInputs = document.querySelectorAll('input[data-tel-input'); 
+
+let element = document.getElementById('phone');
+let maskOptions = {
+    mask: '+7(000)000-00-00',
+    lazy: false
+} 
+let mask;
+phoneInputs.forEach(item => {
+     mask = new IMask(item, maskOptions);
+})  
+
