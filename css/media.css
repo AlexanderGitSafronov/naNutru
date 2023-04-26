@@ -1,0 +1,183 @@
+@media (max-width: 576px) {
+  .header {
+    width: 100%;
+    height: 440px;
+  }
+  .container {
+    padding: 10px;
+  }
+  .header__man {
+    overflow: hidden;
+  }
+  .facebook__screan_content {
+    max-width: 350px;
+    height: 880px;
+  }
+  .cardiology__image_ukraine {
+    margin-left: 0;
+  }
+  .cardiology__footer img {
+    width: 100%;
+  }
+  .header__man img {
+    margin-left: 100px;
+  }
+  .bunner {
+    margin-top: 0;
+  }
+  .main__bunner {
+    width: 250px;
+    height: 95px;
+  }
+  .bunner_border img {
+    width: 70%;
+  }
+  .bunner_border:nth-child(1) {
+    top: -11px;
+    left: 1px;
+  }
+  .bunner_border:nth-child(2) {
+    top: -10px;
+    right: -12px;
+  }
+  .bunner_border:nth-child(3) {
+    left: 0px;
+    bottom: -10px;
+  }
+  .bunner_border:nth-child(4) {
+    bottom: -10px;
+    right: -13px;
+  }
+
+  .header__info_text {
+    margin-top: 145px;
+  }
+  h2 {
+    line-height: 36px;
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .main__content h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .main__content {
+    margin-top: 20px;
+  }
+  .main__content_date p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .facebbok__screan_text {
+    padding: 20px 5px 28px 8px;
+  }
+  .facebook__screan {
+    height: 900px;
+  }
+  .facebook__screan_header {
+    margin: 14px 0px 0px 14px;
+  }
+  .facebook__screan_content {
+    left: 10px;
+    top: 10px;
+  }
+  .facebook__block {
+    margin: 35px 0 38px;
+  }
+  .facebbok__screan_text p:nth-child(2) {
+    margin-top: 28px;
+  }
+  .facebook__screan_footer {
+    margin: 0px 10px;
+    padding: 0px 10px;
+  }
+  .facebook__screan_footer_info {
+    text-align: right;
+    flex-direction: column;
+  }
+  .info__block {
+    margin: 40px 0px;
+  }
+  .info__block .bunner {
+    top: 20px;
+    left: 8px;
+    width: 170px;
+  }
+  .info__block .bunner .bunner_border img {
+    width: 60%;
+  }
+  .info__block .bunner .main__bunner {
+    width: 158px;
+    height: 70px;
+  }
+  .info__block .bunner .main__bunner h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .info__block {
+    overflow: hidden;
+  }
+  .title_red {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .mb-50 {
+    margin-bottom: 20px;
+  }
+  .people__block {
+    background-color: #c0c0c0;
+  }
+  .people__block img {
+    margin-top: 145px;
+  }
+  .doctor {
+    left: 0px;
+    bottom: 42px;
+  }
+  .people__block .bunner_border img {
+    margin-top: 0;
+  }
+  .people__block .bunner {
+    top: 22px;
+  }
+  .cardiology__header p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0;
+  }
+  .section__cardiology {
+    margin-bottom: 0;
+  }
+  .cardiology__footer {
+    flex-direction: column;
+  }
+  .section__cardiology {
+    height: 555px;
+  }
+  .cardiology__avocardine {
+    margin: 0 auto;
+  }
+  .cardiology__image_ukraine {
+    margin: 0 auto;
+  }
+  .cardiology__image_ukraine img {
+    width: 80%;
+  }
+  .section__form h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .application_content {
+    margin-top: 136px;
+  }
+  .application_content .confidentiality {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .info__block .footer__bunner .bunner {
+    display: none;
+  }
+}

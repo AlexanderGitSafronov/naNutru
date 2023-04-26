@@ -1,0 +1,655 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-weight: 600;
+  line-height: 59px;
+  font-size: 48px;
+  color: #fff;
+}
+p {
+  font-size: 25px;
+  color: #222222;
+  font-weight: 600;
+  line-height: 30px;
+}
+/* Начал делать отступы текста как в макете (потом увидел что очень разбросаны) */
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-29 {
+  margin-bottom: 29px;
+}
+mb-18 {
+  margin-bottom: 18px;
+}
+.mb-44 {
+  margin-bottom: 44px;
+}
+.mb-47 {
+  margin-bottom: 47px;
+}
+.mb-52 {
+  margin-bottom: 52px;
+}
+.mb-63 {
+  margin-bottom: 63px;
+}
+.mb-81 {
+  margin-bottom: 81px;
+}
+.mb-33 {
+  margin-bottom: 33px;
+}
+.mb-41 {
+  margin-bottom: 41px;
+}
+.mb-73 {
+  margin-bottom: 73px;
+}
+.title_red {
+  color: #ff0000;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
+.main__content h2 {
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.title_black {
+  color: #222222;
+}
+
+.header {
+  background: url("../images/bg_header.png") no-repeat center/cover;
+  height: 500px;
+  position: relative;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1053px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__man {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.bunner {
+  margin-top: 35px;
+  position: relative;
+}
+.bunner_border {
+  position: absolute;
+}
+.bunner_border:nth-child(1) {
+  top: -20px;
+  left: -5px;
+}
+.bunner_border:nth-child(2) {
+  transform: scaleX(-1);
+  top: -20px;
+  right: -16px;
+}
+.bunner_border:nth-child(3) {
+  transform: rotate(-90deg);
+  left: 0px;
+  bottom: -18px;
+}
+.bunner_border:nth-child(4) {
+  transform: scaleX(-1);
+  transform: rotate(180deg);
+  bottom: -14px;
+  right: -16px;
+}
+
+.main__bunner {
+  width: 382px;
+  height: 133px;
+  background-color: #040f85;
+  border: 6px solid #fff;
+  margin-top: 15px;
+  margin-left: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__bunner h2 span {
+  color: #ffe600;
+}
+.header__info_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.header__info_text h2 {
+  text-transform: uppercase;
+}
+.header__info_text h2:nth-child(1) {
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+.header__info_text h2 span {
+  background-color: #ffe500;
+  color: #040f85;
+  display: inline;
+  padding: 4px 8px 4px 4px;
+}
+.header__info_text h2:nth-child(3) {
+  margin-top: 20px;
+  font-weight: 800;
+}
+.main__content {
+  margin-top: 50px;
+}
+.main__content_date p {
+  color: #858585;
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 19px;
+  text-align: right;
+  margin-bottom: 80px;
+}
+.facebook__block {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 132px;
+}
+.facebook__screan {
+  width: 735px;
+  height: 759px;
+  background: linear-gradient(136.96deg, #3a82f0 -0.75%, #014bb8 100.56%);
+  position: relative;
+}
+.facebook__screan_content {
+  max-width: 693px;
+  height: 722px;
+  border: 8px solid #000;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #fff;
+}
+.facebook__screan_header {
+  display: flex;
+  align-items: center;
+  margin: 22px 0px 0px 22px;
+}
+.facebook__screan_header h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #37689d;
+}
+.facebook_title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  row-gap: 8px;
+}
+
+.facebbok__screan_text {
+  padding: 36px 10px 120px 71px;
+}
+.facebbok__screan_text p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  line-height: 21px;
+}
+.facebbok__screan_text p:nth-child(2) {
+  margin-top: 45px;
+}
+.facebbok_desc {
+  display: flex;
+  column-gap: 15px;
+}
+.facebbok_desc p {
+  color: #6c6c6c;
+  font-size: 20px;
+  font-weight: 500;
+}
+.facebook__screan_footer {
+  max-width: 656px;
+  height: 60px;
+}
+.facebook__screan_footer {
+  margin: 0px 0px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  box-shadow: -4.9px -4.9px 4.9px rgba(0, 0, 0, 0.25),
+    4.9px 4.9px 4.9px rgba(0, 0, 0, 0.43);
+}
+.facebook__screan_footer_img {
+  display: flex;
+  align-items: center;
+}
+.facebook__screan_footer span {
+  margin-left: 4px;
+  color: #6c6c6c;
+  font-size: 15px;
+}
+.facebook__screan_footer_info {
+  display: flex;
+  column-gap: 16px;
+}
+.info__block {
+  max-width: 1024px;
+  height: 684px;
+  background: url("../images/info_block.png") no-repeat center/cover;
+  margin: 70px 0px 48px;
+  position: relative;
+}
+.info__block .bunner {
+  width: 320px;
+  margin-top: 20px;
+  top: 42px;
+  left: 42px;
+}
+.info__block .bunner .main__bunner {
+  width: 305px;
+  height: 105px;
+}
+.info__block .bunner .main__bunner h2 {
+  font-size: 38px;
+  line-height: 47px;
+}
+.footer__bunner {
+  width: 100%;
+  height: 87px;
+  background-color: #040f85;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.line__b {
+  width: 26px;
+  background-color: #ffe500;
+  height: 150%;
+  transform: rotate(20deg);
+  margin-left: 42px;
+  margin-top: -20px;
+}
+.line__l {
+  width: 20px;
+  background-color: #ffe500;
+  height: 150%;
+  transform: rotate(20deg);
+  margin-left: 10px;
+  margin-top: -20px;
+}
+.info__block_text h2 {
+  font-size: 38px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer__bunner .bunner {
+  width: 163px;
+  margin-top: 0px;
+  left: inherit;
+  top: -5px;
+  right: 0px;
+  margin-left: 120px;
+}
+.footer__bunner .bunner_border img {
+  width: 30%;
+}
+.footer__bunner .bunner_border:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.footer__bunner .bunner_border:nth-child(2) {
+  top: 0;
+  right: -6px;
+}
+.footer__bunner .bunner_border:nth-child(4) {
+  bottom: -10px;
+  right: -7px;
+}
+.footer__bunner .bunner_border:nth-child(3) {
+  left: -11px;
+  bottom: 1px;
+}
+.footer__bunner .bunner .main__bunner {
+  width: 157px;
+  height: 55px;
+  border: 2px solid #fff;
+  margin-top: 12px;
+  margin-left: 6px;
+}
+.footer__bunner .bunner .main__bunner h2 {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.people__block {
+  margin: 34px 0 45px;
+  max-width: 1026px;
+  height: 684px;
+  position: relative;
+}
+.people__block img {
+  width: 100%;
+}
+.people__block .bunner {
+  width: 295px;
+  top: 38px;
+  left: 33px;
+  position: absolute;
+}
+.people__block .main__bunner {
+  width: 284px;
+  height: 100px;
+  border: 4px solid #fff;
+  box-shadow: 0px 10px 8px -3px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
+.people__block .main__bunner h2 {
+  font-size: 35px;
+  line-height: 43px;
+}
+.people__block .bunner_border img {
+  width: 60%;
+}
+.people__block .bunner_border:nth-child(1) {
+  top: -9px;
+  left: 3px;
+}
+.people__block .bunner_border:nth-child(2) {
+  top: -9px;
+  right: -12px;
+}
+.people__block .bunner_border:nth-child(3) {
+  left: 0px;
+  bottom: -6px;
+}
+.people__block .bunner_border:nth-child(4) {
+  bottom: -9px;
+  right: -12px;
+}
+.doctor {
+  position: absolute;
+  left: 33px;
+  bottom: 83px;
+  color: #fff;
+}
+.doctor_name {
+  padding: 12px 10px;
+  background: rgba(4, 15, 133, 0.73);
+  backdrop-filter: blur(4.63382px);
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 600;
+}
+.doctor_name_sergiy {
+  display: inline-block;
+}
+.doctor_position {
+  font-size: 21px;
+  font-weight: 400;
+  padding: 10px 7px;
+  background: rgba(0, 22, 255, 0.62);
+  backdrop-filter: blur(4.63382px);
+}
+p span {
+  font-weight: 700;
+}
+
+/* section__cardiology */
+.section__cardiology {
+  max-width: 693px;
+  height: 375px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+.cardiology__header {
+  display: flex;
+}
+.cardiology__header p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #4b4b4b;
+  line-height: 28px;
+  margin-left: 14px;
+  margin-top: 40px;
+}
+.cardiology__header p span:nth-child(2) {
+  color: #e30613;
+}
+.cardiology__header p span:nth-child(3) {
+  color: #000;
+}
+.cardiology__footer {
+  display: flex;
+  justify-content: space-between;
+}
+.cardiology__image_ukraine {
+  position: relative;
+  margin-left: 120px;
+}
+.cardiology__image_ukraine .new_mail {
+  position: absolute;
+  top: 60px;
+  left: -20px;
+}
+.cardiology__avocardine {
+  margin-right: 20px;
+}
+
+/* section__form */
+.section__form h3 {
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 19px;
+}
+.section__form h3:nth-child(2) {
+  color: #ff0000;
+  margin-bottom: 30px;
+}
+.application_pos {
+  display: flex;
+  justify-content: center;
+}
+.application {
+  background: url("../images/form.png") no-repeat center;
+  width: 520px;
+  height: 616px;
+  margin-bottom: 50px;
+}
+.application_content {
+  margin-top: 145px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.application_content p {
+  line-height: 25px;
+  padding: 0px 10px;
+}
+.application_content h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.application__number {
+  font-size: 12px;
+  color: #1700ff;
+  margin-bottom: 5px;
+}
+.application_content .cardicen {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 10px;
+  padding: 0px 30px;
+}
+.application_content .cardicen_desc {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 0px 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.form {
+  text-align: start;
+  margin-top: 10px;
+  width: 260px;
+}
+.form input {
+  width: 100%;
+  padding: 14px 10px;
+  border: 2px solid #e9d7dc;
+  border-radius: 4px;
+}
+.form label {
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 10px 0px;
+}
+.form input::placeholder {
+  color: #757575;
+}
+.form button {
+  background-color: #0099ff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.application_content .confidentiality {
+  font-size: 11px;
+  line-height: 15px;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+.timer {
+  font-size: 30px;
+  color: #ff0000;
+}
+.popap {
+  display: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  position: fixed;
+}
+.popap_form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.popap_form .form {
+  margin: 0 auto;
+  width: 80%;
+}
+.popap_show {
+  display: block;
+}
+.close_popap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px 5px;
+}
+.close_popap button {
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.swipe__to_form a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Animation buttton swipe to form */
+.button_base {
+  font-size: 14px;
+  position: relative;
+  left: 50%;
+  margin-top: 15px;
+  margin-left: -120px;
+  width: 240px;
+  height: 50px;
+  text-align: center;
+  cursor: default;
+}
+.button_base:hover {
+  cursor: pointer;
+}
+.skewed_slide_in {
+  overflow: hidden;
+}
+.skewed_slide_in div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.skewed_slide_in div a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.skewed_slide_in div:nth-child(1) {
+  background-color: #0099ff;
+}
+.skewed_slide_in div:nth-child(2) {
+  background-color: #000000;
+  width: 270px;
+  transition: all 0.2s ease;
+  transform: translate(-290px, 0px) skewX(-30deg);
+}
+.skewed_slide_in div:nth-child(3) {
+  color: #ffffff;
+  left: -220px;
+  transition: left 0.2s ease;
+}
+.skewed_slide_in:hover div:nth-child(2) {
+  transition: all 0.5s ease;
+  transform: translate(-15px, 0px) skewX(-30deg);
+}
+.skewed_slide_in:hover div:nth-child(3) {
+  left: 0px;
+  transition: left 0.30000000000000004s ease;
+}
