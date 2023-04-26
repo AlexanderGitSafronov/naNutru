@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/media.css" />
     <script src="./js/main.js" defer></script>
   </head>
   <body>
@@ -653,7 +653,9 @@
           <div class="application">
             <div class="application_content">
               <h4>Официальный бланк заявки</h4>
-              <p class="application__number">№29 957 из 30 000 от 21.11.2022г.</p>
+              <p class="application__number">
+                №29 957 из 30 000 от 21.11.2022г.
+              </p>
               <p class="cardicen">
                 На бесплатное получение "Кардисена" по специальной программе
               </p>
@@ -663,45 +665,74 @@
                 в поля ниже и нажмите на кнопку "ПОЛУЧИТЬ БЕСПЛАТНО"
               </p>
               <form class="form" action="" id="form">
-                  <div>
-                    <label for="name">ВАШЕ ИМЯ:</label> 
-                    <input type="text" name="name" id="name" placeholder="Укажите Ваше имя">
-                  </div>
-                  <div>
-                    <label for="tel">ВАШ КОНТАКТНЫЙ ТЕЛЕФОН:</label>
-                      <input type="tel" name="tel" id="tel" placeholder="+7(___)___-__-__">
-                  </div>
-                 
-                    <button type="submit">ПОЛУЧИТЬ БЕСПЛАТНО</button>
+                <div>
+                  <label for="name">ВАШЕ ИМЯ:</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Укажите Ваше имя"
+                  />
+                </div>
+                <div>
+                  <label for="tel">ВАШ КОНТАКТНЫЙ ТЕЛЕФОН:</label>
+                  <input
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    placeholder="+7(___)___-__-__"
+                  />
+                </div>
+
+                <button type="submit">ПОЛУЧИТЬ БЕСПЛАТНО</button>
               </form>
-              <p class="confidentiality" ><span>*Конфендициально.</span> Ваши даные отправляються напрямую производителю. Никто, кроме него, не имеетк ним доступ.</p>
+              <p class="confidentiality">
+                <span>*Конфендициально.</span> Ваши даные отправляються напрямую
+                производителю. Никто, кроме него, не имеетк ним доступ.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="popap">
-        <div class="popap_form">
-            <div class="close_popap"><button class="close_popap_btn">X</button></div>
-            <form class="form" action="">
-                <div>
-                  <label for="name">ВАШЕ ИМЯ:</label> 
-                  <input type="text" name="name" id="name" placeholder="Укажите Ваше имя">
-                </div>
-                <div>
-                  <label for="tel">ВАШ КОНТАКТНЫЙ ТЕЛЕФОН:</label>
-                    <input type="tel" name="tel" id="tel" placeholder="+7(___)___-__-__">
-                </div>
-               
-                  <button type="submit">ПОЛУЧИТЬ БЕСПЛАТНО</button>
-                
-                    <div class="button_base skewed_slide_in">
-                        <div class="swipe__to_form"><a href="#form">Перeйти до форми</a></div>
-                        <div></div>
-                        <div class="swipe__to_form"><a href="#form">Перeйти до форми</a></div>
-                    </div>
-            </form>
+      <div class="popap_form">
+        <div class="close_popap">
+          <button class="close_popap_btn">X</button>
         </div>
+        <form class="form" action="">
+          <div>
+            <label for="name">ВАШЕ ИМЯ:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Укажите Ваше имя"
+            />
+          </div>
+          <div>
+            <label for="tel">ВАШ КОНТАКТНЫЙ ТЕЛЕФОН:</label>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="+7(___)___-__-__"
+            />
+          </div>
+
+          <button type="submit">ПОЛУЧИТЬ БЕСПЛАТНО</button>
+
+          <div class="button_base skewed_slide_in">
+            <div class="swipe__to_form">
+              <a href="#form">Перeйти до форми</a>
+            </div>
+            <div></div>
+            <div class="swipe__to_form">
+              <a href="#form">Перeйти до форми</a>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
