@@ -7,6 +7,7 @@ const closePopup = document.querySelector(".close_popap_btn");
 const swipeToForm = document.querySelectorAll(".swipe__to_form");
 const formToPage = document.querySelector("#form");
 const body = document.querySelector("body");
+const phoneInputs = document.querySelectorAll("input[data-tel-input");
 
 let time = 600;
 if (time > 0) {
@@ -50,7 +51,7 @@ body.addEventListener("mouseout", (e) => {
   }
 });
 
-popap.addEventListener("click", (e) => {
+popap.addEventListener("click", () => {
   popap.classList.remove("popap_show");
   body.style.overflow = "visible";
 });
@@ -73,20 +74,13 @@ swipeToForm.forEach((item) => {
   });
 });
 
-
-
-
-
-
-const phoneInputs = document.querySelectorAll('input[data-tel-input'); 
-
-let element = document.getElementById('phone');
+// Musk to tel
+let element = document.getElementById("phone");
 let maskOptions = {
-    mask: '+7(000)000-00-00',
-    lazy: false
-} 
+  mask: "+7(000)000-00-00",
+  lazy: false,
+};
 let mask;
-phoneInputs.forEach(item => {
-     mask = new IMask(item, maskOptions);
-})  
-
+phoneInputs.forEach((item) => {
+  mask = new IMask(item, maskOptions);
+});
